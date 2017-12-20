@@ -1,0 +1,53 @@
+.error-wrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.error-code {
+    font-family: "Patua", sans-serif;
+    font-size: 178px;
+    color: #f38ba1;
+    line-height: 178px;
+}
+
+.error-title {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #4e4b4f;
+}
+
+@media screen and (max-width: 400px) {
+    .error-title {
+        font-size: 16px;
+    }
+}
+
+.error-img img {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.error-wrap a {
+    width: 153px;
+    color: #fff;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 6px;
+    padding: 12px 22px;
+    background: #f38ba1;
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.error-wrap a:hover {
+    text-decoration:none;
+}
